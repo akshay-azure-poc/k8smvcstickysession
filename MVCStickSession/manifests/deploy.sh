@@ -38,7 +38,7 @@ EOF
 
 helm init --service-account tiller --node-selectors "beta.kubernetes.io/os"="linux"
 
-#upload the values.yaml to shell.azure.com before execute the helm install command below
+#upload the helm-ingress/values.yaml to shell.azure.com before execute the helm install command below
 
 helm install stable/nginx-ingress --name nginxing -f values.yaml
 
