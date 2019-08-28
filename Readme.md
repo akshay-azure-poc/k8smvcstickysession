@@ -1,6 +1,4 @@
-Steps to run the sample:
+#This repository is to create a session affinity(sticky session) using windows container, MVC application using C# and Rest API. 
 
-Create infrastructure (see Readme/scripts.txt)
-Check: Hit the environments via http://<CUSTOM_URL>/customer1, http://<CUSTOM_URL>/customer2, http://<CUSTOM_URL>/customer3
 
-Outcome: each customer gets its own dedicated environment, including sticky sessions.
+#See MVCStickSession/manifests/deploy.sh for steps
