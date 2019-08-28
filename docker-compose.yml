@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mvcsticksession:
+    image: ${DOCKER_REGISTRY-}mvcsspoc
+    build:
+      context: .\MVCStickSession
+      dockerfile: Dockerfile
